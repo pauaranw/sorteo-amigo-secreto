@@ -32,6 +32,7 @@ function recorrerListaAmigos(){
         let elementoLi = document.createElement( 'li' );
         elementoLi.innerHTML = amigos [indice]
         lista.appendChild( elementoLi );
+
     } 
 }
 
@@ -44,13 +45,28 @@ function sortearAmigo() {
     let resultadoAmigo = document.getElementById ("listaAmigos").value;
     if (amigos != 0 ){
         let amigoSecreto2 = amigos[ Math.floor(Math.random ()*amigos.length)];
+        console.log (amigoSecreto2)
         return amigoSecreto2
         
     }
     
 }
-
+/*
 function mostrarResultado(){
-    let resultadoFinal = document.getElementById ('resultado')
-    resultadoFinal.innerHTML = sortearAmigo ()
+    let resultadoFinal = document.getElementById ('resultado');
+    resultadoFinal.innerHTML = sortearAmigo()
+}*/
+
+function mostrarResultado() {
+    let resultadoFinal = document.getElementById('resultado');
+    
+    if (!resultadoFinal) {
+        console.error("No se encontró el elemento con id='resultado'");
+        return;
+    }
+
+    let elementoLi = document.createElement( 'li' );
+    elementoLi.innerHTML = sortearAmigo ()
+    resultadoFinal.appendChild( elementoLi );
+   
 }
