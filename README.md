@@ -9,9 +9,10 @@ Amigo Secreto es una aplicación web interactiva que permite realizar un sorteo 
 El proyecto está desarrollado con HTML, CSS y JavaScript, ofreciendo una interfaz simple e intuitiva para mejorar la experiencia del usuario. 🚀
 
 
-<h1>🚀 Características de la Aplicación</h1>
-✅ Ingreso de nombres: Los usuarios pueden agregar nombres de amigos a una lista.
-✅ Sorteo aleatorio: Se elige un nombre al azar entre los participantes ingresados.
-✅ Interfaz intuitiva: Diseño simple y fácil de usar, ideal para cualquier usuario.
-✅ Lista dinámica: Los nombres ingresados se muestran en una lista visualmente organizada.
-✅ Resultados en pantalla: El nombre sorteado se muestra de inmediato sin necesidad de recargar la página.
+<h1>🚀 Características de la Aplicación</h1><br>
+
+✅ Ingreso de nombres: Los usuarios pueden agregar nombres de amigos a una lista.<br>
+✅ Sorteo aleatorio: Se elige un nombre al azar entre los participantes ingresados.<br>
+✅ Interfaz intuitiva: Diseño simple y fácil de usar, ideal para cualquier usuario.<br>
+✅ Lista dinámica: Los nombres ingresados se muestran en una lista visualmente organizada.<br>
+✅ Resultados en pantalla: El nombre sorteado se muestra de inmediato sin necesidad de recargar la página.<br>
