@@ -1,5 +1,5 @@
 <h1 align="center"> Sorteo amigo secreto </h>
-![amigo-secreto](https://github.com/user-attachments/assets/bac99d5c-c038-47d0-9ee3-d272c38fcb88)
+
 
 
 <h1> 📖 Descripción del Proyecto </h1>
